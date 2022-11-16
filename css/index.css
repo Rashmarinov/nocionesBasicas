@@ -14,8 +14,14 @@ body{
     margin: 0 auto;    
     /* margenes */
     box-sizing: border-box;
-    padding: 35px 35px 0 35px;
+    padding: 35px 60px 0 60px;
 }
+
+header{
+    display: flex;
+    align-items: center;
+}
+
 /* Circulo representando la zona del logo */
 .circulo{
     /* color */
@@ -24,6 +30,17 @@ body{
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    /* margen */
+    margin: 20px;
+}
+
+.rectanguloAzul{
+    /* color */
+    background-color: blue;
+    /* forma */
+    height: 200px;
+    /* margen */
+    flex-grow: 1;
 }
 
 .rectanguloRedondeado{
@@ -35,3 +52,6 @@ body{
     /* margen */
     margin-top: 100px;
 }
+
+
+
