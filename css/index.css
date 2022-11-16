@@ -1,9 +1,28 @@
+/* fondo del body */
 body{
-    
+    background-color: #d7d7d7;
 }
-.container{
-    max-width: 1366px;
+/* Contenedor */
+.contenedor{
+    /* poner altura falsa */
+    height: 100vh;
+    /* fondo de la web */
     background-color: #F9F9E2;
-    height: 500px;
-    
+    /* Ancho controlado */
+    max-width: 1366px;
+    /* Siempre en el centro de las pantallas */
+    margin: 0 auto;    
+    /* margenes */
+    box-sizing: border-box;
+    padding: 25px 25px 0 25px;
 }
+/* Circulo representando la zona del logo */
+.circulo{
+    /* color */
+    background-color: orange;
+    /* forma */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
