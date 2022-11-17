@@ -64,4 +64,40 @@ header{
 
 }
 
+.circuloRectangulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px ;
+}
+
+.reverso{
+    flex-flow: row-reverse wrap;
+}
+
+.circuloVerde{
+    /* color */
+    background-color: green;
+    /* forma */
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* NO FLEXIBLE DENTRO de Flex */
+    flex-shrink: 0;
+}
+
+.margen{
+    margin-left: 50px;
+}
+
+.rectanguloVerde{
+    /* color */
+    background-color: rgb(144, 201, 144);
+    /* forma */
+    height: 300px;
+    /* margen */
+    /* Con flex-grow se queda con todo el espacio que sobra desde el circulo*/
+    flex-grow: 1;
+}
+
 
