@@ -40,6 +40,7 @@ header{
     /* forma */
     height: 200px;
     /* margen */
+    /* Con flex-grow se queda con todo el espacio que sobra desde el circulo*/
     flex-grow: 1;
 }
 
@@ -53,5 +54,14 @@ header{
     margin-top: 100px;
 }
 
+.rectanguloBlanco{
+    /* color */
+    background-color: white;
+    /* forma */
+    height: 400px;
+    /* margen */
+    margin-top: 100px;
+
+}
 
 
