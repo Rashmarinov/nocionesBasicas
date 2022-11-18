@@ -5,7 +5,7 @@ body{
 /* Contenedor */
 .contenedor{
     /* poner altura falsa */
-    height: 100vh;
+
     /* fondo de la web */
     background-color: #F9F9E2;
     /* Ancho controlado */
@@ -14,12 +14,12 @@ body{
     margin: 0 auto;    
     /* margenes */
     box-sizing: border-box;
-    padding: 35px 60px 0 60px;
 }
 
 header{
     display: flex;
     align-items: center;
+    padding: 35px 60px 0 60px;
 }
 
 /* Circulo representando la zona del logo */
@@ -32,6 +32,7 @@ header{
     border-radius: 50%;
     /* margen */
     margin: 20px;
+    
 }
 
 .rectanguloAzul{
@@ -51,7 +52,7 @@ header{
     height: 600px;
     border-radius: 150px;
     /* margen */
-    margin-top: 100px;
+    margin: 100px 60px 0 60px;
 }
 
 .rectanguloBlanco{
@@ -60,15 +61,15 @@ header{
     /* forma */
     height: 400px;
     /* margen */
-    margin-top: 100px;
-
+    margin: 100px 60px 0 60px;
 }
 
 .circuloRectangulo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px ;
+    padding: 0px 60px 0 60px;
+
 }
 
 .reverso{
@@ -90,14 +91,28 @@ header{
     margin-left: 50px;
 }
 
+
 .rectanguloVerde{
     /* color */
     background-color: rgb(144, 201, 144);
     /* forma */
     height: 300px;
     /* margen */
+    margin-top: 100px ;
     /* Con flex-grow se queda con todo el espacio que sobra desde el circulo*/
     flex-grow: 1;
 }
 
+footer{
+    /* color */
+    background-color: black;
+    /* forma */
+    height: 700px;
+    width: 100%;
+    /* margen */
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 35px 60px 0 60px;
+}
 
