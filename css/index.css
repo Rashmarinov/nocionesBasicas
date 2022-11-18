@@ -84,6 +84,7 @@ header{
     width: 300px;
     border-radius: 50%;
     /* NO FLEXIBLE DENTRO de Flex */
+    margin-top: 100px;
     flex-shrink: 0;
 }
 
